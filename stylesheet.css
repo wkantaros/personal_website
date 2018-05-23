@@ -49,13 +49,13 @@ body {
   float: left;
   box-sizing: border-box;
   width: 25%;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: .75s;
+  transition: .75s;
 }
 
 .btn-group .button:hover {
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: .75s;
+  transition: .75s;
   background-color: #333;
 }
 
@@ -116,9 +116,9 @@ body {
 }
 
 #resume a:hover {
+  color: #f99157;
   -webkit-transition: .3s;
   transition: .3s;
-  color: #f99157;
 }
 
 #resume ul {
@@ -129,4 +129,15 @@ body {
 #resume ul ul {
   list-style-type:none;
     padding: 0;
+}
+
+#body-about img {
+  width: 20%;
+  height: auto;
+  margin: 10px 40%;
+}
+
+#body-about {
+  text-align: center;
+  padding: 2em 0;
 }
