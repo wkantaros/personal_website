@@ -64,11 +64,11 @@ body {
   margin-top: 0;
   line-height: 5em;
   height: 5em;
-  background-color: #A18168;
+  background-color: #CACFD6;
   border-top: 3px solid #333;
   text-align: center;
   margin: 0 auto;
-  color: rgb(235, 235, 235);
+  color: #555;
 }
 
 #footer p, img {
@@ -77,17 +77,32 @@ body {
   max-width: 60%;
 }
 
-/* problem here with float and alignment */
-
-#footer img {
+#footer a {
+  position: absolute;
   decoration: none;
-  height: 30px;
-  width: auto;
-  float: right;
-  padding: 1.5em 5px;
-  vertical-align: middle;
+  left: 90%;
 }
 
+#footer img {
+  width: 50px;
+}
+
+#footer a:first-child {
+  left: 95%;
+}
+
+#footer a:nth-child(2) {
+  left: 92.5%;
+}
+
+#index #footer {
+  background-color: #A18168;
+  color: rgb(235, 235, 235);
+}
+
+#grad {
+  background: #D6E5E3;
+}
 #resume {
   margin: 0 auto;
   max-width: 50em;
@@ -105,7 +120,7 @@ body {
   background: #eee;
   padding: 20px 4px;
   vertical-align: text-bottom;
-  border-left: 2px solid #69c;
+  border-left: 2px solid #9FD8CB;
 }
 
 #resume a {
