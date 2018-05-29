@@ -4,23 +4,29 @@
   padding: 0;
 }
 
-body {
+body, html{
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   color: #555;
+  height: 100%;
+  margin: 0;
 }
 
 #header {
-  background-color: #263d36;
+  /* The image used */
   background-image: url("Cover_Image.jpg");
-  background-size: auto 100vh;
-  -webkit-background-size: cover;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  max-width: none;
-  /* height: 100vh; */
+
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#stuff-in-header {
   line-height: 1.2;
-  padding: 18.5% 2em;
+  padding: 10% 2em;
   text-align: center;
 }
 
