@@ -23,13 +23,13 @@ h1 {
 h2, p {
   font-family: 'Open Sans', sans-serif;
   color: white;
-  padding-left: 20%;
+  padding-left: 40vh;
   padding-top: 2em;
   max-width: 12.5em;
 }
 
 h2 {
-  padding-top: 20%;
+  padding-top: 40vh;
 }
 
 .fullpage {
