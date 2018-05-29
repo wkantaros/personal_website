@@ -29,7 +29,7 @@ h2, p {
 }
 
 h2 {
-  padding-top: 40vh;
+  padding-top: 20%;
 }
 
 .fullpage {
@@ -83,4 +83,8 @@ h2 {
 #Morse {
   /* The image used */
   background-image: url("Mullets/Morse.jpg");
+}
+#Pollock {
+  /* The image used */
+  background-image: url("Mullets/Pollock.jpg");
 }
