@@ -10,7 +10,7 @@ body, html {
 
 h1 {
   margin: 0;
-  padding: 20%;
+  padding: 40vh;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -23,7 +23,11 @@ h2, p {
   color: white;
   padding-left: 20%;
   padding-top: 2em;
-  max-width: 15em;
+  max-width: 12.5em;
+}
+
+h2 {
+  padding-top: 40vh;
 }
 
 .fullpage {
