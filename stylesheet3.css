@@ -10,7 +10,7 @@ body, html {
 
 h1 {
   margin: 0;
-  padding: 40vh;
+  padding: 40vh 8vh 8vh;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   color: white;
