@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html class="test123">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Faces Behind the Hair</title>
+  <meta name="description" content="A sample HTML/CSS example website to demonstrate to students what they can build" />
+  <meta name="keywords" content="Will, Kantaros, Pacific Peak" />
+  <meta name="robots" content="index,follow" />
+  <link rel="stylesheet" type="text/css" href="stylesheet3.css" />
+  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+  <script src="vendors/jquery.easings.min.js"></script>
+
+
+  <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+  <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+
+  <script type="text/javascript" src="jquery.fullPage.js"></script>
+
+  <script type="text/javascript">
+
+		$(document).ready(function() {
+  			$('#fullpage').fullpage({
+  				'verticalCentered': false,
+  				navigation: true,
+          navigationTooltips: ['Cover', 'Alex Boriss', 'Mark Witt',
+          'Jed Heald', 'John Krikorian', 'Will Rickards', 'Henry Rogers',
+          'Will Yun', 'Chriss Morse', 'Jayme Wilde', 'Jake Jordan']
+  			});
+		  });
+  </script>
+</head>
+
+<body>
+  <!-- <h1>Mullets of Andover Lacrosse</h1> -->
+  <div id="fullpage">
+    <div class="fullpage section">
+
+      <h1>The Faces Behind the Hair: Our Stories</h1>
+    </div>
+    <div class="fullpage section" id="Witt"><h2>John Witt</h2><p>My "Pasta Monday" face</p></div>
+    <div class="fullpage section" id="Heald"><h2>Jed Heald</h2><p>America first, lacrosse second</p></div>
+    <div class="fullpage section" id="Krikorian"><h2>John Krikorian</h2><p>This hair brings out my sensitive side</p></div>
+    <div class="fullpage section" id="Boriss"><h2>Alex Boriss</h2><p>Samurai Flow</p></div>
+    <div class="fullpage section" id="Rickards"><h2>Will Rickards</h2><p>“Red hair, sir, in my opinion, is dangerous.”</p></div>
+    <div class="fullpage section" id="Rogers"><h2>Henry Rogers</h2><p>I've had invisalign for five years</p></div>
+    <div class="fullpage section" id="Yun"><h2>Will Yun</h2><p>My mullet is the coolest</p></div>
+    <div class="fullpage section" id="Morse"><h2>Chriss Morse</h2><p>My parents added an extra 's' to my name and named my brother Chad. They really messed up</p></div>
+    <div class="fullpage section" id="Wilde"><h2>Jayme Wilde</h2><p>The notches are a metaphor</p></div>
+    <div class="fullpage section" id="Jordan"><h2>Jake Jordan</h2><p>Happy Leif Erikson day!</p></div>
+    </div>
+
+  </div>
+</body>
+
+</html>

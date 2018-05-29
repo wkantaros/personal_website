@@ -64,7 +64,6 @@ header p {
  -o-transform: scale(1.1);
  -ms-transform: scale(1.1);
  transform: scale(1.1);
- cursor: pointer;
 
  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
@@ -153,30 +152,4 @@ a.button3:hover {
 .test123 {
     height: 100%;
     margin: 0;
-}
-
-.boriss {
-    /* The image used */
-    background-image: url("Mullets/Boriss.jpg");
-
-    /* Full height */
-    height: 90%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.mark {
-    /* The image used */
-    background-image: url("Mullets/Witt.jpg");
-
-    /* Full height */
-    height: 90%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
