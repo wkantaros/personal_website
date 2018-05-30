@@ -23,7 +23,7 @@ h1 {
 h2, p {
   font-family: 'Open Sans', sans-serif;
   color: white;
-  padding-left: 40vh;
+  padding-left: 20%;
   padding-top: 2em;
   max-width: 12.5em;
 }
@@ -87,4 +87,16 @@ h2 {
 #Pollock {
   /* The image used */
   background-image: url("Mullets/Pollock.jpg");
+}
+
+h3 {
+  margin: 0;
+  padding-top: 40vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 300;
+  vertical-align: center;
 }
