@@ -235,15 +235,15 @@ a:hover {
   #footer a {
     position: absolute;
     decoration: none;
-    left: 30.5%;
+    left: 85%;
   }
 
   #footer a:first-child {
-    left: 45.5%;
+    left: 75%;
   }
 
   #footer a:nth-child(2) {
-    left: 60.5%;
+    left: 65%;
   }
 
   #resume .boxes {
