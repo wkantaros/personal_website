@@ -153,6 +153,17 @@ a.button3:hover {
   #container {
     margin: 50px auto;
   }
+  
+  #footer p {
+    display: none;
+  }
+
+  #footer a {
+    position: absolute;
+    decoration: none;
+    left: 30.5%;
+  }
+
 
   #footer a:first-child {
     left: 82.5%;

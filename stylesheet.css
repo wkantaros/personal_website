@@ -228,12 +228,22 @@ a:hover {
 }
 
 @media screen and (max-width: 800px) {
+  #footer p {
+    display: none;
+  }
+
+  #footer a {
+    position: absolute;
+    decoration: none;
+    left: 30.5%;
+  }
+
   #footer a:first-child {
-    left: 82.5%;
+    left: 45.5%;
   }
 
   #footer a:nth-child(2) {
-    left: 75%;
+    left: 60.5%;
   }
 
   #resume .boxes {
@@ -260,4 +270,3 @@ a:hover {
     list-style-type:none;
       padding: 0;
   }
-}
