@@ -4,8 +4,7 @@
 * {margin: 0; padding: 0;}
 
 #mullets .photobanner img {
-  /* height: 30vh; */
-  width: 40vh;
+  width: 30%;
   height: auto;
   padding: 2px auto;
 }
@@ -150,7 +149,7 @@ a.button3:hover {
   }
 
   #container {
-    margin: 50px auto;
+    margin: 10px auto;
   }
 
   #footer p {
@@ -174,13 +173,6 @@ a.button3:hover {
   a.button3 {
     margin: 0 10%;
     padding: 0.3em 34%;
-  }
-
-  #mullets .photobanner img {
-    /* height: 30vh; */
-    width: 30%;
-    height: auto;
-    padding: 2px auto;
   }
 
 }
