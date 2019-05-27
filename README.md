@@ -1,2 +1,2 @@
 # personal_website
-A basic website about me
+Made for cs500 final
